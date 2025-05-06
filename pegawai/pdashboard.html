@@ -58,6 +58,12 @@
       font-size: 14px;
       color: #0d47a1;
     }
+    @media (min-width: 992px) {
+    .custom-col {
+      flex: 0 0 20%;
+      max-width: 20%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -85,7 +91,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-dark">
+            <a href="../login.html" class="nav-link text-dark">
               <i class="bi bi-box-arrow-right me-2"></i> Log Out
             </a>
           </li>
@@ -102,7 +108,7 @@
         </div>
 
         <div class="row g-4">
-          <div class="col-md-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="pkelolaspt.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text me-2"></i><strong>SPT Terbuat</strong>
@@ -110,7 +116,7 @@
             </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="pkelolarpd.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text me-2"></i><strong>RPD Terbuat</strong>

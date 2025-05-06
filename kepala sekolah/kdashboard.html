@@ -34,7 +34,7 @@
     .card-counter {
       border: 1px solid #dee2e6;
       border-radius: 12px;
-      padding: 20px;
+      padding: 10px;
       background: white;
       box-shadow: 0 2px 4px rgba(0,0,0,0.05);
       text-align: center;
@@ -54,6 +54,12 @@
       background: #fff;
       font-size: 14px;
       color: #0d47a1;
+    }
+    @media (min-width: 992px) {
+    .custom-col {
+      flex: 0 0 20%;
+      max-width: 20%;
+      }
     }
   </style>
 </head>
@@ -97,7 +103,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-dark">
+            <a href="../login.html" class="nav-link text-dark">
               <i class="bi bi-box-arrow-right me-2"></i> Log Out
             </a>
           </li>
@@ -114,7 +120,7 @@
         </div>
 
         <div class="row g-4">
-          <div class="col-md-4 col-lg-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="kdatapegawai.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-person"></i>
@@ -123,7 +129,7 @@
             </div>
             </a>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="kkelolaspt.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text"></i>
@@ -132,7 +138,7 @@
             </div>
             </a>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="kkelolaspd.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text"></i>
@@ -141,7 +147,7 @@
             </div>
             </a>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <a href="kkelolarpd.html" style="text-decoration: none; color: inherit;">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text"></i>
@@ -150,7 +156,7 @@
             </div>
             </a>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-6 col-md-4 col-lg custom-col">
             <div class="card-counter">
               <i class="bi bi-file-earmark-text"></i>
               <strong>Kuitansi Terbuat</strong>
